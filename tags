@@ -1,0 +1,292 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+BULKSMS	server.c	18;"	d	file:
+EXIT_FAILURE	mqtt.h	41;"	d
+FILE_PATH	socket.c	9;"	d	file:
+GENERATE_ENUM	mqtt.h	300;"	d
+GENERATE_STRING	mqtt.h	307;"	d
+MQTTConnackReturnCode	mqtt.h	/^enum MQTTConnackReturnCode {$/;"	g
+MQTTConnectFlags	mqtt.h	/^enum MQTTConnectFlags {$/;"	g
+MQTTControlPacketType	mqtt.h	/^  enum MQTTControlPacketType {$/;"	g
+MQTTErrors	mqtt.h	/^enum MQTTErrors {$/;"	g
+MQTTPublishFlags	mqtt.h	/^enum MQTTPublishFlags {$/;"	g
+MQTTQueuedMessageState	mqtt.h	/^enum MQTTQueuedMessageState {$/;"	g
+MQTTSubackReturnCodes	mqtt.h	/^enum MQTTSubackReturnCodes {$/;"	g
+MQTT_BITFIELD_RULE_VIOLOATION	mqtt.c	1032;"	d	file:
+MQTT_CLIENT_TRY_PACK	mqtt.c	335;"	d	file:
+MQTT_CONNACK_ACCEPTED	mqtt.h	/^    MQTT_CONNACK_ACCEPTED = 0u,$/;"	e	enum:MQTTConnackReturnCode
+MQTT_CONNACK_REFUSED_BAD_USER_NAME_OR_PASSWORD	mqtt.h	/^    MQTT_CONNACK_REFUSED_BAD_USER_NAME_OR_PASSWORD = 4u,$/;"	e	enum:MQTTConnackReturnCode
+MQTT_CONNACK_REFUSED_IDENTIFIER_REJECTED	mqtt.h	/^    MQTT_CONNACK_REFUSED_IDENTIFIER_REJECTED = 2u,$/;"	e	enum:MQTTConnackReturnCode
+MQTT_CONNACK_REFUSED_NOT_AUTHORIZED	mqtt.h	/^    MQTT_CONNACK_REFUSED_NOT_AUTHORIZED = 5u$/;"	e	enum:MQTTConnackReturnCode
+MQTT_CONNACK_REFUSED_PROTOCOL_VERSION	mqtt.h	/^    MQTT_CONNACK_REFUSED_PROTOCOL_VERSION = 1u,$/;"	e	enum:MQTTConnackReturnCode
+MQTT_CONNACK_REFUSED_SERVER_UNAVAILABLE	mqtt.h	/^    MQTT_CONNACK_REFUSED_SERVER_UNAVAILABLE = 3u,$/;"	e	enum:MQTTConnackReturnCode
+MQTT_CONNECT_CLEAN_SESSION	mqtt.h	/^    MQTT_CONNECT_CLEAN_SESSION = 2u,$/;"	e	enum:MQTTConnectFlags
+MQTT_CONNECT_PASSWORD	mqtt.h	/^    MQTT_CONNECT_PASSWORD = 64u,$/;"	e	enum:MQTTConnectFlags
+MQTT_CONNECT_RESERVED	mqtt.h	/^    MQTT_CONNECT_RESERVED = 1u,$/;"	e	enum:MQTTConnectFlags
+MQTT_CONNECT_USER_NAME	mqtt.h	/^    MQTT_CONNECT_USER_NAME = 128u$/;"	e	enum:MQTTConnectFlags
+MQTT_CONNECT_WILL_FLAG	mqtt.h	/^    MQTT_CONNECT_WILL_FLAG = 4u,$/;"	e	enum:MQTTConnectFlags
+MQTT_CONNECT_WILL_QOS_0	mqtt.h	/^    MQTT_CONNECT_WILL_QOS_0 = (0u & 0x03) << 3,$/;"	e	enum:MQTTConnectFlags
+MQTT_CONNECT_WILL_QOS_1	mqtt.h	/^    MQTT_CONNECT_WILL_QOS_1 = (1u & 0x03) << 3,$/;"	e	enum:MQTTConnectFlags
+MQTT_CONNECT_WILL_QOS_2	mqtt.h	/^    MQTT_CONNECT_WILL_QOS_2 = (2u & 0x03) << 3,$/;"	e	enum:MQTTConnectFlags
+MQTT_CONNECT_WILL_RETAIN	mqtt.h	/^    MQTT_CONNECT_WILL_RETAIN = 32u,$/;"	e	enum:MQTTConnectFlags
+MQTT_CONTROL_CONNACK	mqtt.h	/^    MQTT_CONTROL_CONNACK=2u,$/;"	e	enum:MQTTControlPacketType
+MQTT_CONTROL_CONNECT	mqtt.h	/^    MQTT_CONTROL_CONNECT=1u,$/;"	e	enum:MQTTControlPacketType
+MQTT_CONTROL_DISCONNECT	mqtt.h	/^    MQTT_CONTROL_DISCONNECT=14u$/;"	e	enum:MQTTControlPacketType
+MQTT_CONTROL_PINGREQ	mqtt.h	/^    MQTT_CONTROL_PINGREQ=12u,$/;"	e	enum:MQTTControlPacketType
+MQTT_CONTROL_PINGRESP	mqtt.h	/^    MQTT_CONTROL_PINGRESP=13u,$/;"	e	enum:MQTTControlPacketType
+MQTT_CONTROL_PUBACK	mqtt.h	/^    MQTT_CONTROL_PUBACK=4u,$/;"	e	enum:MQTTControlPacketType
+MQTT_CONTROL_PUBCOMP	mqtt.h	/^    MQTT_CONTROL_PUBCOMP=7u,$/;"	e	enum:MQTTControlPacketType
+MQTT_CONTROL_PUBLISH	mqtt.h	/^    MQTT_CONTROL_PUBLISH=3u,$/;"	e	enum:MQTTControlPacketType
+MQTT_CONTROL_PUBREC	mqtt.h	/^    MQTT_CONTROL_PUBREC=5u,$/;"	e	enum:MQTTControlPacketType
+MQTT_CONTROL_PUBREL	mqtt.h	/^    MQTT_CONTROL_PUBREL=6u,$/;"	e	enum:MQTTControlPacketType
+MQTT_CONTROL_SUBACK	mqtt.h	/^    MQTT_CONTROL_SUBACK=9u,$/;"	e	enum:MQTTControlPacketType
+MQTT_CONTROL_SUBSCRIBE	mqtt.h	/^    MQTT_CONTROL_SUBSCRIBE=8u,$/;"	e	enum:MQTTControlPacketType
+MQTT_CONTROL_UNSUBACK	mqtt.h	/^    MQTT_CONTROL_UNSUBACK=11u,$/;"	e	enum:MQTTControlPacketType
+MQTT_CONTROL_UNSUBSCRIBE	mqtt.h	/^    MQTT_CONTROL_UNSUBSCRIBE=10u,$/;"	e	enum:MQTTControlPacketType
+MQTT_ERRORS_STR	mqtt.c	/^static const char * const MQTT_ERRORS_STR[] = {$/;"	v	file:
+MQTT_ERROR_UNKNOWN	mqtt.h	/^    MQTT_ERROR_UNKNOWN=INT_MIN,$/;"	e	enum:MQTTErrors
+MQTT_OK	mqtt.h	/^    MQTT_OK = 1$/;"	e	enum:MQTTErrors
+MQTT_PAL_HTONS	mqtt.h	61;"	d
+MQTT_PAL_MUTEX_INIT	mqtt.h	69;"	d
+MQTT_PAL_MUTEX_LOCK	mqtt.h	70;"	d
+MQTT_PAL_MUTEX_UNLOCK	mqtt.h	71;"	d
+MQTT_PAL_NTOHS	mqtt.h	62;"	d
+MQTT_PAL_TIME	mqtt.h	64;"	d
+MQTT_PROTOCOL_LEVEL	mqtt.h	256;"	d
+MQTT_PUBLISH_DUP	mqtt.h	/^    MQTT_PUBLISH_DUP = 8u,$/;"	e	enum:MQTTPublishFlags
+MQTT_PUBLISH_QOS_0	mqtt.h	/^    MQTT_PUBLISH_QOS_0 = ((0u << 1) & 0x06),$/;"	e	enum:MQTTPublishFlags
+MQTT_PUBLISH_QOS_1	mqtt.h	/^    MQTT_PUBLISH_QOS_1 = ((1u << 1) & 0x06),$/;"	e	enum:MQTTPublishFlags
+MQTT_PUBLISH_QOS_2	mqtt.h	/^    MQTT_PUBLISH_QOS_2 = ((2u << 1) & 0x06),$/;"	e	enum:MQTTPublishFlags
+MQTT_PUBLISH_QOS_MASK	mqtt.h	/^    MQTT_PUBLISH_QOS_MASK = ((3u << 1) & 0x06),$/;"	e	enum:MQTTPublishFlags
+MQTT_PUBLISH_RETAIN	mqtt.h	/^    MQTT_PUBLISH_RETAIN = 0x01$/;"	e	enum:MQTTPublishFlags
+MQTT_QUEUED_AWAITING_ACK	mqtt.h	/^    MQTT_QUEUED_AWAITING_ACK,$/;"	e	enum:MQTTQueuedMessageState
+MQTT_QUEUED_COMPLETE	mqtt.h	/^    MQTT_QUEUED_COMPLETE$/;"	e	enum:MQTTQueuedMessageState
+MQTT_QUEUED_UNSENT	mqtt.h	/^    MQTT_QUEUED_UNSENT,$/;"	e	enum:MQTTQueuedMessageState
+MQTT_SUBACK_FAILURE	mqtt.h	/^    MQTT_SUBACK_FAILURE           = 128u$/;"	e	enum:MQTTSubackReturnCodes
+MQTT_SUBACK_SUCCESS_MAX_QOS_0	mqtt.h	/^    MQTT_SUBACK_SUCCESS_MAX_QOS_0 = 0u,$/;"	e	enum:MQTTSubackReturnCodes
+MQTT_SUBACK_SUCCESS_MAX_QOS_1	mqtt.h	/^    MQTT_SUBACK_SUCCESS_MAX_QOS_1 = 1u,$/;"	e	enum:MQTTSubackReturnCodes
+MQTT_SUBACK_SUCCESS_MAX_QOS_2	mqtt.h	/^    MQTT_SUBACK_SUCCESS_MAX_QOS_2 = 2u,$/;"	e	enum:MQTTSubackReturnCodes
+MQTT_SUBSCRIBE_REQUEST_MAX_NUM_TOPICS	mqtt.h	902;"	d
+MQTT_UNSUBSCRIBE_REQUEST_MAX_NUM_TOPICS	mqtt.h	937;"	d
+OBD	server.c	19;"	d	file:
+PORT	socket.c	8;"	d	file:
+POWEROFF	server.c	15;"	d	file:
+REBOOT	server.c	16;"	d	file:
+SMS	server.c	17;"	d	file:
+__ALL_MQTT_ERRORS	mqtt.h	/^    __ALL_MQTT_ERRORS(GENERATE_ENUM)$/;"	e	enum:MQTTErrors
+__ALL_MQTT_ERRORS	mqtt.h	262;"	d
+__mqtt_next_pid	mqtt.c	/^uint16_t __mqtt_next_pid(struct mqtt_client *client) {$/;"	f
+__mqtt_pack_str	mqtt.c	/^ssize_t __mqtt_pack_str(uint8_t *buf, const char* str) {$/;"	f
+__mqtt_pack_uint16	mqtt.c	/^ssize_t __mqtt_pack_uint16(uint8_t *buf, uint16_t integer)$/;"	f
+__mqtt_packed_cstrlen	mqtt.h	368;"	d
+__mqtt_ping	mqtt.c	/^enum MQTTErrors __mqtt_ping(struct mqtt_client *client) $/;"	f
+__mqtt_puback	mqtt.c	/^ssize_t __mqtt_puback(struct mqtt_client *client, uint16_t packet_id) {$/;"	f
+__mqtt_pubcomp	mqtt.c	/^ssize_t __mqtt_pubcomp(struct mqtt_client *client, uint16_t packet_id) {$/;"	f
+__mqtt_pubrec	mqtt.c	/^ssize_t __mqtt_pubrec(struct mqtt_client *client, uint16_t packet_id) {$/;"	f
+__mqtt_pubrel	mqtt.c	/^ssize_t __mqtt_pubrel(struct mqtt_client *client, uint16_t packet_id) {$/;"	f
+__mqtt_recv	mqtt.c	/^ssize_t __mqtt_recv(struct mqtt_client *client)$/;"	f
+__mqtt_send	mqtt.c	/^ssize_t __mqtt_send(struct mqtt_client *client) $/;"	f
+__mqtt_unpack_uint16	mqtt.c	/^uint16_t __mqtt_unpack_uint16(const uint8_t *buf)$/;"	f
+_mqtt_pal_dummy	mqtt.c	/^int _mqtt_pal_dummy;$/;"	v
+application_message	mqtt.h	/^    const void* application_message;$/;"	m	struct:mqtt_response_publish
+application_message_size	mqtt.h	/^    size_t application_message_size;$/;"	m	struct:mqtt_response_publish
+availableMem	server.c	/^	char availableMem[10];$/;"	m	struct:gateway_info	file:
+callActive	server.c	/^	char callActive[15];$/;"	m	struct:gateway_info	file:
+callAnswered	server.c	/^	char callAnswered[15];$/;"	m	struct:gateway_info	file:
+callNotAnswered	server.c	/^	char callNotAnswered[15];$/;"	m	struct:gateway_info	file:
+callProcessed	server.c	/^	char callProcessed[15];$/;"	m	struct:gateway_info	file:
+client_daemon	mqtt.h	/^    pthread_t client_daemon;$/;"	m	struct:mqtt_client
+client_flag	server.c	/^struct mqtt_client* client_flag;$/;"	v	typeref:struct:mqtt_client
+client_gatewayInfo	server.c	/^struct mqtt_client* client_gatewayInfo;$/;"	v	typeref:struct:mqtt_client
+client_gatewayStatus	server.c	/^struct mqtt_client* client_gatewayStatus;$/;"	v	typeref:struct:mqtt_client
+client_publishFiles	server.c	/^struct mqtt_client* client_publishFiles;$/;"	v	typeref:struct:mqtt_client
+client_refresher	mqtt.c	/^void* client_refresher(void* client)$/;"	f
+con	server.c	/^MYSQL *con;$/;"	v
+connack	mqtt.h	/^        struct mqtt_response_connack  connack;$/;"	m	union:mqtt_response::__anon1	typeref:struct:mqtt_response::__anon1::mqtt_response_connack
+control_flags	mqtt.h	/^    uint32_t  control_flags: 4;$/;"	m	struct:mqtt_fixed_header
+control_type	mqtt.h	/^    enum MQTTControlPacketType control_type;$/;"	m	struct:mqtt_fixed_header	typeref:enum:mqtt_fixed_header::MQTTControlPacketType
+control_type	mqtt.h	/^    enum MQTTControlPacketType control_type;$/;"	m	struct:mqtt_queued_message	typeref:enum:mqtt_queued_message::MQTTControlPacketType
+control_type_is_valid	mqtt.c	/^    uint8_t control_type_is_valid[16];$/;"	m	struct:mqtt_fixed_header_rules_s	file:
+curr	mqtt.h	/^        uint8_t *curr;$/;"	m	struct:mqtt_client::__anon2
+curr	mqtt.h	/^    uint8_t *curr;$/;"	m	struct:mqtt_message_queue
+curr_sz	mqtt.h	/^        size_t curr_sz;$/;"	m	struct:mqtt_client::__anon2
+curr_sz	mqtt.h	/^    size_t curr_sz;$/;"	m	struct:mqtt_message_queue
+decoded	mqtt.h	/^    } decoded;$/;"	m	struct:mqtt_response	typeref:union:mqtt_response::__anon1
+dir	server.c	/^DIR *dir;$/;"	v
+display	server.c	/^void display(MYSQL* con){$/;"	f
+dltFlag	server.c	/^int dltFlag=0;$/;"	v
+dsp_client_daemon	mqtt.c	/^pthread_t dsp_client_daemon;$/;"	v
+dsp_socket	mqtt.c	/^uint32_t dsp_socket;$/;"	v
+dummy	mqtt.h	/^  int dummy;$/;"	m	struct:mqtt_response_pingresp
+dup_flag	mqtt.h	/^    uint8_t dup_flag;$/;"	m	struct:mqtt_response_publish
+entry	server.c	/^struct dirent *entry;$/;"	v	typeref:struct:dirent
+error	mqtt.h	/^    enum MQTTErrors error;$/;"	m	struct:mqtt_client	typeref:enum:mqtt_client::MQTTErrors
+error	socket.c	/^void error(const char *msg) {$/;"	f
+exit_example	mqtt.c	/^void exit_example(int status, int sockfd, long unsigned int * client_daemon)$/;"	f
+file	server.c	/^FILE *file;$/;"	v
+fileExists	server.c	/^int fileExists(const char *filename) {$/;"	f
+file_name	server.c	/^char file_name[2][30];$/;"	v
+finish_with_error	server.c	/^void finish_with_error(MYSQL *con)$/;"	f
+fixed_header	mqtt.h	/^    struct mqtt_fixed_header fixed_header;$/;"	m	struct:mqtt_response	typeref:struct:mqtt_response::mqtt_fixed_header
+flagMgs	server.c	/^char flagMgs[5];$/;"	v
+gateway_info	server.c	/^typedef struct gateway_info {$/;"	s	file:
+gateway_info_type	server.c	/^} gateway_info_type;$/;"	t	typeref:struct:gateway_info	file:
+inspector_callback	mqtt.h	/^    enum MQTTErrors (*inspector_callback)(struct mqtt_client*);$/;"	m	struct:mqtt_client	typeref:enum:mqtt_client::inspector_callback
+ip	mqtt.h	/^    char *ip;$/;"	m	struct:mqtt_client
+ip	server.c	/^	char ip[16];$/;"	m	struct:gateway_info	file:
+ip_address	server.c	/^char ip_address[16]; \/\/ Assuming IPv4 address format (xxx.xxx.xxx.xxx)$/;"	v
+keep_alive	mqtt.h	/^    uint16_t keep_alive;$/;"	m	struct:mqtt_client
+mac	server.c	/^	char mac[20];$/;"	m	struct:gateway_info	file:
+main	server.c	/^int main(){$/;"	f
+main	socket.c	/^int main() {$/;"	f
+mask_required_flags	mqtt.c	/^    uint8_t mask_required_flags[16];$/;"	m	struct:mqtt_fixed_header_rules_s	file:
+memPercent	server.c	/^	char memPercent[10];$/;"	m	struct:gateway_info	file:
+mem_end	mqtt.h	/^    void *mem_end;$/;"	m	struct:mqtt_message_queue
+mem_size	mqtt.h	/^        size_t mem_size;$/;"	m	struct:mqtt_client::__anon2
+mem_start	mqtt.h	/^        uint8_t *mem_start;$/;"	m	struct:mqtt_client::__anon2
+mem_start	mqtt.h	/^    void *mem_start;$/;"	m	struct:mqtt_message_queue
+mobile_no	server.c	/^char mobile_no[15];$/;"	v
+mq	mqtt.h	/^    struct mqtt_message_queue mq;$/;"	m	struct:mqtt_client	typeref:struct:mqtt_client::mqtt_message_queue
+mqtt_client	mqtt.h	/^struct mqtt_client {$/;"	s
+mqtt_connect	mqtt.c	/^enum MQTTErrors mqtt_connect(struct mqtt_client *client,$/;"	f
+mqtt_disconnect	mqtt.c	/^enum MQTTErrors mqtt_disconnect(struct mqtt_client *client) $/;"	f
+mqtt_dsp_fini	mqtt.c	/^void mqtt_dsp_fini(){$/;"	f
+mqtt_dsp_init	mqtt.c	/^enum MQTTErrors mqtt_dsp_init(struct mqtt_client* client,void (*publish_response_callback)(void** state,struct mqtt_response_publish *publish)){$/;"	f
+mqtt_error_str	mqtt.c	/^const char* mqtt_error_str(enum MQTTErrors error) {$/;"	f
+mqtt_fixed_header	mqtt.h	/^struct mqtt_fixed_header {$/;"	s
+mqtt_fixed_header_rule_violation	mqtt.c	/^static ssize_t mqtt_fixed_header_rule_violation(const struct mqtt_fixed_header *fixed_header) {$/;"	f	file:
+mqtt_fixed_header_rules	mqtt.c	/^static const struct mqtt_fixed_header_rules_s mqtt_fixed_header_rules ={$/;"	v	typeref:struct:mqtt_fixed_header_rules_s	file:
+mqtt_fixed_header_rules_s	mqtt.c	/^struct mqtt_fixed_header_rules_s{$/;"	s	file:
+mqtt_init	mqtt.c	/^enum MQTTErrors mqtt_init(struct mqtt_client *client,$/;"	f
+mqtt_init_reconnect	mqtt.c	/^void mqtt_init_reconnect(struct mqtt_client *client,$/;"	f
+mqtt_message_queue	mqtt.h	/^struct mqtt_message_queue {$/;"	s
+mqtt_mq_clean	mqtt.c	/^void mqtt_mq_clean(struct mqtt_message_queue *mq) {$/;"	f
+mqtt_mq_currsz	mqtt.h	1165;"	d
+mqtt_mq_find	mqtt.c	/^struct mqtt_queued_message* mqtt_mq_find(const struct mqtt_message_queue *mq, enum MQTTControlPacketType control_type, const uint16_t *packet_id)$/;"	f
+mqtt_mq_get	mqtt.h	1153;"	d
+mqtt_mq_init	mqtt.c	/^void mqtt_mq_init(struct mqtt_message_queue *mq, void *buf, size_t bufsz) $/;"	f
+mqtt_mq_length	mqtt.h	1159;"	d
+mqtt_mq_register	mqtt.c	/^struct mqtt_queued_message* mqtt_mq_register(struct mqtt_message_queue *mq, size_t nbytes)$/;"	f
+mqtt_pack_connection_request	mqtt.c	/^ssize_t mqtt_pack_connection_request(uint8_t* buf, size_t bufsz,$/;"	f
+mqtt_pack_disconnect	mqtt.c	/^ssize_t mqtt_pack_disconnect(uint8_t *buf, size_t bufsz) {$/;"	f
+mqtt_pack_fixed_header	mqtt.c	/^ssize_t mqtt_pack_fixed_header(uint8_t *buf, size_t bufsz, const struct mqtt_fixed_header *fixed_header) {$/;"	f
+mqtt_pack_ping_request	mqtt.c	/^ssize_t mqtt_pack_ping_request(uint8_t *buf, size_t bufsz) {$/;"	f
+mqtt_pack_publish_request	mqtt.c	/^ssize_t mqtt_pack_publish_request(uint8_t *buf, size_t bufsz,$/;"	f
+mqtt_pack_pubxxx_request	mqtt.c	/^ssize_t mqtt_pack_pubxxx_request(uint8_t *buf, size_t bufsz, $/;"	f
+mqtt_pack_subscribe_request	mqtt.c	/^ssize_t mqtt_pack_subscribe_request(uint8_t *buf, size_t bufsz, unsigned int packet_id, ...) {$/;"	f
+mqtt_pack_unsubscribe_request	mqtt.c	/^ssize_t mqtt_pack_unsubscribe_request(uint8_t *buf, size_t bufsz, unsigned int packet_id, ...) {$/;"	f
+mqtt_pal_mutex_t	mqtt.h	/^    typedef pthread_mutex_t mqtt_pal_mutex_t;$/;"	t
+mqtt_pal_recvall	mqtt.c	/^ssize_t mqtt_pal_recvall(mqtt_pal_socket_handle fd, void* buf, size_t bufsz, int flags) {$/;"	f
+mqtt_pal_sendall	mqtt.c	/^ssize_t mqtt_pal_sendall(mqtt_pal_socket_handle fd, const void* buf, size_t len, int flags) {$/;"	f
+mqtt_pal_socket_handle	mqtt.h	/^    typedef int mqtt_pal_socket_handle;$/;"	t
+mqtt_pal_time_t	mqtt.h	/^    typedef time_t mqtt_pal_time_t;$/;"	t
+mqtt_ping	mqtt.c	/^enum MQTTErrors mqtt_ping(struct mqtt_client *client) {$/;"	f
+mqtt_publish	mqtt.c	/^enum MQTTErrors mqtt_publish(struct mqtt_client *client,$/;"	f
+mqtt_queued_message	mqtt.h	/^struct mqtt_queued_message {$/;"	s
+mqtt_reconnect	mqtt.c	/^enum MQTTErrors mqtt_reconnect(struct mqtt_client *client)$/;"	f
+mqtt_reinit	mqtt.c	/^void mqtt_reinit(struct mqtt_client* client,$/;"	f
+mqtt_response	mqtt.h	/^struct mqtt_response {$/;"	s
+mqtt_response_connack	mqtt.h	/^struct mqtt_response_connack {$/;"	s
+mqtt_response_pingresp	mqtt.h	/^struct mqtt_response_pingresp {$/;"	s
+mqtt_response_puback	mqtt.h	/^struct mqtt_response_puback {$/;"	s
+mqtt_response_pubcomp	mqtt.h	/^struct mqtt_response_pubcomp {$/;"	s
+mqtt_response_publish	mqtt.h	/^struct mqtt_response_publish {$/;"	s
+mqtt_response_pubrec	mqtt.h	/^struct mqtt_response_pubrec {$/;"	s
+mqtt_response_pubrel	mqtt.h	/^struct mqtt_response_pubrel {$/;"	s
+mqtt_response_suback	mqtt.h	/^struct mqtt_response_suback {$/;"	s
+mqtt_response_unsuback	mqtt.h	/^struct mqtt_response_unsuback {$/;"	s
+mqtt_subscribe	mqtt.c	/^enum MQTTErrors mqtt_subscribe(struct mqtt_client *client,$/;"	f
+mqtt_sync	mqtt.c	/^enum MQTTErrors mqtt_sync(struct mqtt_client *client) {$/;"	f
+mqtt_unpack_connack_response	mqtt.c	/^ssize_t mqtt_unpack_connack_response(struct mqtt_response *mqtt_response, const uint8_t *buf) {$/;"	f
+mqtt_unpack_fixed_header	mqtt.c	/^ssize_t mqtt_unpack_fixed_header(struct mqtt_response *response, const uint8_t *buf, size_t bufsz) {$/;"	f
+mqtt_unpack_publish_response	mqtt.c	/^ssize_t mqtt_unpack_publish_response(struct mqtt_response *mqtt_response, const uint8_t *buf)$/;"	f
+mqtt_unpack_pubxxx_response	mqtt.c	/^ssize_t mqtt_unpack_pubxxx_response(struct mqtt_response *mqtt_response, const uint8_t *buf) $/;"	f
+mqtt_unpack_response	mqtt.c	/^ssize_t mqtt_unpack_response(struct mqtt_response* response, const uint8_t *buf, size_t bufsz) {$/;"	f
+mqtt_unpack_suback_response	mqtt.c	/^ssize_t mqtt_unpack_suback_response (struct mqtt_response *mqtt_response, const uint8_t *buf) {$/;"	f
+mqtt_unpack_unsuback_response	mqtt.c	/^ssize_t mqtt_unpack_unsuback_response(struct mqtt_response *mqtt_response, const uint8_t *buf) $/;"	f
+mqtt_unsubscribe	mqtt.c	/^enum MQTTErrors mqtt_unsubscribe(struct mqtt_client *client,$/;"	f
+mutex	mqtt.h	/^    mqtt_pal_mutex_t mutex;$/;"	m	struct:mqtt_client
+my_buffer	server.c	/^char my_buffer[415];    $/;"	v
+num_return_codes	mqtt.h	/^    size_t num_return_codes;$/;"	m	struct:mqtt_response_suback
+number_of_keep_alives	mqtt.h	/^    int number_of_keep_alives;$/;"	m	struct:mqtt_client
+number_of_timeouts	mqtt.h	/^    int number_of_timeouts;$/;"	m	struct:mqtt_client
+obdPubFlag	server.c	/^int obdPubFlag=1;$/;"	v
+open_nb_socket	mqtt.c	/^int open_nb_socket(const char* addr, const char* port) {$/;"	f
+packet_id	mqtt.h	/^    uint16_t packet_id;$/;"	m	struct:mqtt_queued_message
+packet_id	mqtt.h	/^    uint16_t packet_id;$/;"	m	struct:mqtt_response_puback
+packet_id	mqtt.h	/^    uint16_t packet_id;$/;"	m	struct:mqtt_response_pubcomp
+packet_id	mqtt.h	/^    uint16_t packet_id;$/;"	m	struct:mqtt_response_publish
+packet_id	mqtt.h	/^    uint16_t packet_id;$/;"	m	struct:mqtt_response_pubrec
+packet_id	mqtt.h	/^    uint16_t packet_id;$/;"	m	struct:mqtt_response_pubrel
+packet_id	mqtt.h	/^    uint16_t packet_id;$/;"	m	struct:mqtt_response_suback
+packet_id	mqtt.h	/^    uint16_t packet_id;$/;"	m	struct:mqtt_response_unsuback
+password	mqtt.h	/^    char *password;$/;"	m	struct:mqtt_client
+pid_lfsr	mqtt.h	/^    uint16_t pid_lfsr;$/;"	m	struct:mqtt_client
+pingresp	mqtt.h	/^        struct mqtt_response_pingresp pingresp;$/;"	m	union:mqtt_response::__anon1	typeref:struct:mqtt_response::__anon1::mqtt_response_pingresp
+port	mqtt.h	/^    char *port;$/;"	m	struct:mqtt_client
+pub_or_sub	mqtt.h	/^    bool pub_or_sub; \/\/ 1 for pub and 0 for sub$/;"	m	struct:mqtt_client
+pub_topic	server.c	/^char pub_topic[25];$/;"	v
+puback	mqtt.h	/^        struct mqtt_response_puback   puback;$/;"	m	union:mqtt_response::__anon1	typeref:struct:mqtt_response::__anon1::mqtt_response_puback
+pubcomp	mqtt.h	/^        struct mqtt_response_pubcomp  pubcomp;$/;"	m	union:mqtt_response::__anon1	typeref:struct:mqtt_response::__anon1::mqtt_response_pubcomp
+publish	mqtt.h	/^        struct mqtt_response_publish  publish;$/;"	m	union:mqtt_response::__anon1	typeref:struct:mqtt_response::__anon1::mqtt_response_publish
+publish	server.c	/^void publish(struct mqtt_client *client,char *topic,char* buffer){$/;"	f
+publish_callback1	server.c	/^void publish_callback1(void** unused, struct mqtt_response_publish *published)$/;"	f
+publish_callback2	server.c	/^void publish_callback2(void** unused, struct mqtt_response_publish *published)$/;"	f
+publish_callback3	server.c	/^void publish_callback3(void** unused, struct mqtt_response_publish * published)$/;"	f
+publish_response_callback	mqtt.h	/^    void (*publish_response_callback)(void** state, struct mqtt_response_publish *publish);$/;"	m	struct:mqtt_client
+publish_response_callback_state	mqtt.h	/^    void* publish_response_callback_state;$/;"	m	struct:mqtt_client
+pubrec	mqtt.h	/^        struct mqtt_response_pubrec   pubrec;$/;"	m	union:mqtt_response::__anon1	typeref:struct:mqtt_response::__anon1::mqtt_response_pubrec
+pubrel	mqtt.h	/^        struct mqtt_response_pubrel   pubrel;$/;"	m	union:mqtt_response::__anon1	typeref:struct:mqtt_response::__anon1::mqtt_response_pubrel
+qos_level	mqtt.h	/^    uint8_t qos_level;$/;"	m	struct:mqtt_response_publish
+query	server.c	/^char query[1500];  \/\/ Global variale for querry$/;"	v
+queue_tail	mqtt.h	/^    struct mqtt_queued_message *queue_tail;$/;"	m	struct:mqtt_message_queue	typeref:struct:mqtt_message_queue::mqtt_queued_message
+reconnect_callback	mqtt.h	/^    void (*reconnect_callback)(struct mqtt_client*, void**);$/;"	m	struct:mqtt_client
+reconnect_state	mqtt.h	/^    void* reconnect_state;$/;"	m	struct:mqtt_client
+recv_buffer	mqtt.h	/^    } recv_buffer;$/;"	m	struct:mqtt_client	typeref:struct:mqtt_client::__anon2
+recvbuf	mqtt.h	/^    uint8_t recvbuf[1024]; $/;"	m	struct:mqtt_client
+remaining_length	mqtt.h	/^    uint32_t remaining_length;$/;"	m	struct:mqtt_fixed_header
+remove_directory	server.c	/^int remove_directory(const char *path) {$/;"	f
+required_flags	mqtt.c	/^    uint8_t required_flags[16];$/;"	m	struct:mqtt_fixed_header_rules_s	file:
+response_timeout	mqtt.h	/^    int response_timeout;$/;"	m	struct:mqtt_client
+result	server.c	/^MYSQL_RES *result;$/;"	v
+result2	server.c	/^MYSQL_RES *result2;$/;"	v
+ret	server.c	/^int ret;$/;"	v
+retain_flag	mqtt.h	/^    uint8_t retain_flag;$/;"	m	struct:mqtt_response_publish
+return_code	mqtt.h	/^    enum MQTTConnackReturnCode return_code;$/;"	m	struct:mqtt_response_connack	typeref:enum:mqtt_response_connack::MQTTConnackReturnCode
+return_codes	mqtt.h	/^    const uint8_t *return_codes;$/;"	m	struct:mqtt_response_suback
+row	server.c	/^MYSQL_ROW row;$/;"	v
+row22	server.c	/^MYSQL_ROW row22;$/;"	v
+send_offset	mqtt.h	/^    size_t send_offset;$/;"	m	struct:mqtt_client
+sendbuf	mqtt.h	/^    char sendbuf[3048]; $/;"	m	struct:mqtt_client
+serialNo	server.c	/^	char serialNo[20];$/;"	m	struct:gateway_info	file:
+session_present_flag	mqtt.h	/^    uint8_t session_present_flag;$/;"	m	struct:mqtt_response_connack
+signal_handler	server.c	/^void signal_handler(int signum) {$/;"	f
+simDeployed	server.c	/^	char simDeployed[5];$/;"	m	struct:gateway_info	file:
+simNotReg	server.c	/^	char simNotReg[5];$/;"	m	struct:gateway_info	file:
+simReg	server.c	/^	char simReg[5];$/;"	m	struct:gateway_info	file:
+size	mqtt.h	/^    size_t size;$/;"	m	struct:mqtt_queued_message
+sms_buffer	server.c	/^char sms_buffer[500];$/;"	v
+sms_mgs	server.c	/^char sms_mgs[330];$/;"	v
+socketfd	mqtt.h	/^    mqtt_pal_socket_handle socketfd;$/;"	m	struct:mqtt_client
+sockfd	mqtt.h	/^    int sockfd;$/;"	m	struct:mqtt_client
+span	server.c	/^char span[10];$/;"	v
+start	mqtt.h	/^    uint8_t *start;$/;"	m	struct:mqtt_queued_message
+state	mqtt.h	/^    enum MQTTQueuedMessageState state;$/;"	m	struct:mqtt_queued_message	typeref:enum:mqtt_queued_message::MQTTQueuedMessageState
+statusMessage	server.c	/^char statusMessage[20];$/;"	v
+suback	mqtt.h	/^        struct mqtt_response_suback   suback;$/;"	m	union:mqtt_response::__anon1	typeref:struct:mqtt_response::__anon1::mqtt_response_suback
+time	server.c	/^	char time[25];$/;"	m	struct:gateway_info	file:
+time_of_last_send	mqtt.h	/^    mqtt_pal_time_t time_of_last_send;$/;"	m	struct:mqtt_client
+time_sent	mqtt.h	/^    mqtt_pal_time_t time_sent;$/;"	m	struct:mqtt_queued_message
+to_publsh	server.c	/^char to_publsh[300];$/;"	v
+topic	mqtt.h	/^    char *topic;$/;"	m	struct:mqtt_client
+topic_name	mqtt.h	/^    const void* topic_name;$/;"	m	struct:mqtt_response_publish
+topic_name_size	mqtt.h	/^    uint16_t topic_name_size;$/;"	m	struct:mqtt_response_publish
+totalMem	server.c	/^	char totalMem[10];$/;"	m	struct:gateway_info	file:
+typical_response_time	mqtt.h	/^    float typical_response_time;$/;"	m	struct:mqtt_client
+unsuback	mqtt.h	/^        struct mqtt_response_unsuback unsuback;$/;"	m	union:mqtt_response::__anon1	typeref:struct:mqtt_response::__anon1::mqtt_response_unsuback
+usedMem	server.c	/^	char usedMem[10];$/;"	m	struct:gateway_info	file:
+user_name	mqtt.h	/^    char *user_name;$/;"	m	struct:mqtt_client
