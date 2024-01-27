@@ -1336,7 +1336,7 @@ struct mqtt_client {
 /** brief: This function should be called at last after everything
  **/
 
-void mqtt_dsp_fini();
+void mqtt_dj_fini();
 
 /**
  *  @brief This is the main function that will run everything , the wrapper function 
@@ -1347,7 +1347,7 @@ void mqtt_dsp_fini();
  *
  *  UPDATE : changed client_info is no more , only client
  **/
-enum MQTTErrors mqtt_dsp_init(struct mqtt_client* client,void (*publish_response_callback)(void** state,struct mqtt_response_publish *publish));
+enum MQTTErrors mqtt_dj_init(struct mqtt_client* client,void (*publish_response_callback)(void** state,struct mqtt_response_publish *publish));
 
 /**
  * @brief Generate a new next packet ID.

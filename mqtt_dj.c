@@ -79,7 +79,7 @@ int open_nb_socket(const char* addr, const char* port) {
 /** brief: This is the main custom function that will initiate everything
  **/
 
-enum MQTTErrors mqtt_dsp_init(struct mqtt_client* client,void (*publish_response_callback)(void** state,struct mqtt_response_publish *publish)){
+enum MQTTErrors mqtt_dj_init(struct mqtt_client* client,void (*publish_response_callback)(void** state,struct mqtt_response_publish *publish)){
     //int address=atoi(client->ip);
     //int port=atoi(client->port);
     
@@ -147,7 +147,7 @@ void exit_example(int status, int sockfd, long unsigned int * client_daemon)
 /** brief: This function should be called at last after everything
  **/
 
-void mqtt_dsp_fini(){
+void mqtt_dj_fini(){
    exit_example(EXIT_SUCCESS,dsp_socket,&dsp_client_daemon);
 }
 
