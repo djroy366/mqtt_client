@@ -40,3 +40,6 @@ Example initiation of the client -
 
         mqtt_dsp_init(pub,NULL);
         mqtt_dsp_init(sub,publish_callback1);
+
+
+TODO : EDIT this README as per as standards
