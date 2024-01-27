@@ -71,8 +71,8 @@ int main(){
 	sub->password   = "lte_gateway";
 
 
-	mqtt_dsp_init(pub,NULL);
-	mqtt_dsp_init(sub,publish_callback1);
+	mqtt_dj_init(pub,NULL);
+	mqtt_dj_init(sub,publish_callback1);
 
 
 
